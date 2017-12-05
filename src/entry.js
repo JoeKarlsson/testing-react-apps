@@ -20,3 +20,6 @@ ReactDOM.render(
 		<Button alertNumber={alertNumber} />
 	), document.getElementById('root'),
 );
+
+// Line of code to make unit tests fail, but integration tests fail
+// document.querySelector('body').style.cssText = 'display: none';

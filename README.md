@@ -49,6 +49,5 @@ Don't hesitate to create a pull request. Every contribution is appreciated. In d
   <tbody>
 </table>
 
-### License
 
 #### [MIT](./LICENSE)
