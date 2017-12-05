@@ -2,8 +2,9 @@
 
 exports[`Button Snapshot test match the snapshot 1`] = `
 <button
-  className="Button-Bad"
-  onClick={undefined}
+  className="Button"
+  id="react-button"
+  onClick={[Function]}
 >
   Multiply
 </button>

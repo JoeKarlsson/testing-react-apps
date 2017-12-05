@@ -1,3 +1,8 @@
+/*
+  eslint
+	no-undef: 0
+*/
+
 import React from 'react';
 import Enzyme, { mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
@@ -8,15 +13,13 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe('Button', () => {
 	describe('Snapshot test', () => {
-	  it('match the snapshot', () => {
+		it('match the snapshot', () => {
 			const mockAlertNumber = jest.fn();
-			const component = renderer.create(
-			   <Button alertNumber={mockAlertNumber} />,
-			);
+			const component = renderer.create(<Button alertNumber={mockAlertNumber} />);
 			const tree = component.toJSON();
 			expect(tree).toMatchSnapshot();
-	  });
-  });
+		});
+	});
 
 	describe('Integration test', () => {
 		it('should run the multiply function on click', () => {
