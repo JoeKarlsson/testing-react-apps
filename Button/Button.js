@@ -1,11 +1,18 @@
 const React = require('react');
+const multiply = require('../multiply');
 
-const Button = () => {
-    return (
-			<div className="Button-Bad">
-		    Button
-			</div>
-    );
+const Button = (props) => {
+
+	const { alertNumber } = props;
+
+  return (
+		<button
+			className="Button-Bad"
+			onClick={alertNumber(multiply(2, 3))}
+		>
+	    Multiply
+		</button>
+  );
 };
 
-module.exports = Button;
+export default Button;
