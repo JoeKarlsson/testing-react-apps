@@ -4,7 +4,7 @@
 
 # Mastering React: How To Test Your React Application
 
-Testing Front End applications can be hard to wrap your head around.  We will dig into how we test new React features for high traffic web applications using Jest, and Enzyme. We will cover the three levels of testing:
+Testing Front End applications can be hard to wrap your head around.  We will dig into how we test new React features for high traffic web applications using Jest, and Enzyme. We will cover the three levels of testing:
 
 1) Unit testing React
 1) Behavioral testing our interactive React Components
@@ -24,10 +24,10 @@ Slides: [Mastering React: How To Test Your React Application Slides](https://sli
 
 1) Download latest selenium standalone server
 
-		* Run `curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.8.1.jar`
+		`curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.8.1.jar`
 1) Download the latest version geckodriver
 
-		* Run `curl -L https://github.com/mozilla/geckodriver/releases/download/v0.16.0/geckodriver-v0.16.0-macos.tar.gz | tar xz`
+		`curl -L https://github.com/mozilla/geckodriver/releases/download/v0.16.0/geckodriver-v0.16.0-macos.tar.gz | tar xz`
 1) Run `npm start`
 1) In a new terminal, run `npm run start:selenium`
 1) In a new terminal, run `npm run test:e2e`
