@@ -11,3 +11,31 @@
 1) Integration testing our entire application.
 
 Slides: [Mastering React: How To Test Your React Application Slides](https://slides.com/joekarlsson/testing-react-apps/edit)
+
+### Getting Started
+
+* run `npm install && npm start`
+
+
+### Contributing
+
+Don't hesitate to create a pull request. Every contribution is appreciated. In development you can start the tests by calling `npm test`. Checkout our [contribution README](https://github.com/JoeKarlsson/testing-react-apps/blob/master/CONTRIBUTING.md) for more info.
+
+### Maintainers
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <img width="150 height="150"
+        src="https://avatars.githubusercontent.com/JoeKarlsson?v=3">
+        <br />
+        <a href="https://github.com/JoeKarlsson">Joe Karlsson</a>
+      </td>
+    <tr>
+  <tbody>
+</table>
+
+### License
+
+#### [MIT](./LICENSE)

@@ -8,7 +8,7 @@ const Button = (props) => {
   return (
 		<button
 			className="Button-Bad"
-			onClick={alertNumber(multiply(2, 3))}
+			onClick={alertNumber.bind(this, multiply(3, 2))}
 		>
 	    Multiply
 		</button>
