@@ -11,6 +11,7 @@ const alertNumber = (num) => {
 	const body = document.getElementById('root');
 	const newNum = document.createElement('div');
 	newNum.innerHTML = `${num} `;
+	newNum.className = 'newNum';
 	body.appendChild(newNum);
 };
 

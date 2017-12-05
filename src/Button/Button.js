@@ -12,7 +12,8 @@ const Button = (props) => {
 
 	return (
 		<button
-			className="Button-Bad"
+			className="Button"
+			id="react-button"
 			onClick={alertNumber.bind(this, multiply(3, 2))}
 		>
 			Multiply
