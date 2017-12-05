@@ -1,0 +1,29 @@
+{
+  "name": "testing-react-apps",
+  "version": "1.0.0",
+  "description": "https://github.com/JoeKarlsson/testing-react-apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeKarlsson/testing-react-apps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeKarlsson/testing-react-apps/issues"
+  },
+  "homepage": "https://github.com/JoeKarlsson/testing-react-apps#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^21.2.1",
+    "react": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "regenerator-runtime": "^0.11.0"
+  }
+}
