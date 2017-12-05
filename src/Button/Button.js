@@ -1,18 +1,29 @@
-const React = require('react');
-const multiply = require('../multiply');
+/*
+  eslint
+	react/jsx-no-bind: 0
+*/
+
+import React from 'react';
+import PropTypes from 'prop-types';
+import multiply from '../multiply';
 
 const Button = (props) => {
-
 	const { alertNumber } = props;
 
-  return (
+	return (
 		<button
 			className="Button-Bad"
 			onClick={alertNumber.bind(this, multiply(3, 2))}
 		>
-	    Multiply
+			Multiply
 		</button>
-  );
+	);
 };
+
+Button.propTypes = {
+	alertNumber: PropTypes.func.isRequired,
+};
+
+Button.defaultProps = {};
 
 export default Button;
