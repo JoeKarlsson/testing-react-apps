@@ -26,5 +26,4 @@ describe('Button', () => {
 			expect(mockAlertNumber).toHaveBeenCalledTimes(1);
 		});
 	});
-
 });
