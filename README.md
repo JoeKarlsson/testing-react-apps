@@ -1,8 +1,6 @@
-# testing-react-apps
+# Mastering React: How To Test Your React Application
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
-
-# Mastering React: How To Test Your React Application
 
 Testing Front End applications can be hard to wrap your head around.  We will dig into how we test new React features for high traffic web applications using Jest, and Enzyme. We will cover the three levels of testing:
 
