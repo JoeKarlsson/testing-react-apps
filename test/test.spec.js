@@ -17,7 +17,7 @@ describe('Preview App Test page', () => {
 			const btn = $('.Button');
 			btn.click();
 			const newNum = $('.newNum');
-			expect(newNum.getText()).to.be.equal('6');
+			expect(newNum.getText()).to.be.equal('7');
 		});
 	});
 });

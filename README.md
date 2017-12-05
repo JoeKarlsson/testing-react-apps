@@ -14,8 +14,21 @@ Slides: [Mastering React: How To Test Your React Application Slides](https://sli
 
 ### Getting Started
 
-* run `npm install && npm start`
+* Run `npm install && npm start`
 
+### Run Unit/Integration Tests
+
+* Run `npm test`
+
+### Running E2E Tests
+
+1) Download latest selenium standalone server
+		* Run `curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.8.1.jar`
+1) Download the latest version geckodriver
+ 		* Run `curl -L https://github.com/mozilla/geckodriver/releases/download/v0.16.0/geckodriver-v0.16.0-macos.tar.gz | tar xz`
+1) Run `npm start`
+1) In a new terminal, run `npm run start:selenium`
+1) In a new terminal, run `npm run test:e2e`
 
 ### Contributing
 
