@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js --hot --inline --port 3001 -w --content-base preview",
-		"start:selenium": "java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.8.1.jar",
+    "start:selenium": "java -jar -Dwebdriver.gecko.driver=./geckodriver selenium-server-standalone-3.8.1.jar",
     "test": "jest",
     "test:e2e": "./node_modules/.bin/wdio wdio.conf.js",
-		"test:updateSnapshot": "jest --updateSnapshot"
+    "test:updateSnapshot": "jest --updateSnapshot"
   },
   "repository": {
     "type": "git",
