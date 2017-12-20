@@ -1,4 +1,6 @@
 # Mastering React: How To Test Your React Application
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/JoeKarlsson/testing-react-apps.svg)](https://greenkeeper.io/)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
 
